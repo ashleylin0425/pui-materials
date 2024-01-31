@@ -2,6 +2,12 @@ body {
   font-family: sans-serif;
 }
 
+.big_container {
+  width: 400px;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: row;
+}
 .row {
   width: 500px;
   background-color: lightgray;
