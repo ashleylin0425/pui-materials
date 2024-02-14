@@ -47,20 +47,20 @@ function onSelectValueChange() {
 // When the page loads, find the select element.
 let selectElement = document.querySelector('#car-select');
 
-// Let's add a new car to the allCars array.
-let newCar = {
-  model: 'Honda Odyssey',
-  description: 'A practical minivan for soccer moms and everyone else.',
-};
-allCars.push(newCar);
+// // Let's add a new car to the allCars array.
+// let newCar = {
+//   model: 'Honda Odyssey',
+//   description: 'A practical minivan for soccer moms and everyone else.',
+// };
+// allCars.push(newCar);
 
-// We also need to add this new car to the UI. To do that, create a new
-// 'option' HTML element, set its attributes, and add it to the select
-// element.
-var option = document.createElement('option');
-option.text = newCar.model;
-option.value = allCars.length - 1; // Its value should be the index of the last element in allCars
-selectElement.add(option);
+// // We also need to add this new car to the UI. To do that, create a new
+// // 'option' HTML element, set its attributes, and add it to the select
+// // element.
+// var option = document.createElement('option');
+// option.text = newCar.model;
+// option.value = allCars.length - 1; // Its value should be the index of the last element in allCars
+// selectElement.add(option);
 
 // Give it a listener for the 'change' event, which is a function that will run
 // when the selected option changes. You could also do this by setting the

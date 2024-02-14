@@ -17,7 +17,44 @@ body {
 }
 
 .column.responsive {
+  width: 100%;
 }
 
 .container.responsive {
+  width: 100%;
 }
+
+/* 
+body {
+  font-family: sans-serif;
+}
+
+.column {
+  width: 33%;
+  height: 80px;
+  border: 1px solid steelblue;
+  padding: 12px;
+  box-sizing: border-box; /* This makes sure that we can add padding without affecting the calculated width. */
+
+/* 
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .column.responsive {
+  /* width: 100%; */
+  /* display: block;
+}
+
+.container.responsive {
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 600px) {
+.column.responsive {
+  /* width:33%; */
+  /* display: none;
+  }
+ }  */
